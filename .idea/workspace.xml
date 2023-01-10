@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f99ce8d1-c4a5-4dab-9335-1f67712ed2c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaAdvancedJanuary2023.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackAndQueueExercise/BalancedBrackets05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackAndQueueExercise/BasicQueueOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackAndQueueExercise/BasicStackOperations02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackAndQueueExercise/MaximumElement03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackAndQueueExercise/RecursiveFibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackAndQueueExercise/ReverseNumbersWithStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackAndQueueLesson/BrowsingHistory01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackAndQueueLesson/BrowsingHistoryUpdate08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackAndQueueLesson/DecimalToBinary03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackAndQueueLesson/HotPotato07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackAndQueueLesson/MatchingBrackets04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackAndQueueLesson/MathPotato06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackAndQueueLesson/PrinterQueue05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackAndQueueLesson/SimpleCalculator02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
