@@ -7,5 +7,7 @@ public class BrowsingHistoryUpdate08 {
         Scanner scanner = new Scanner(System.in);
 
 
+
+
     }
 }

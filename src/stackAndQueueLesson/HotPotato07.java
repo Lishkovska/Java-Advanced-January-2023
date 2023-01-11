@@ -20,8 +20,8 @@ public class HotPotato07 {
                 String currentChild = queue.poll();
                 queue.offer(currentChild);
             }
-            String childToRemove = queue.poll();
-            System.out.println("Removed " + childToRemove);
+            String removedChild = queue.poll();
+            System.out.println("Removed " + removedChild);
         }
         System.out.println("Last is " + queue.poll());
       }

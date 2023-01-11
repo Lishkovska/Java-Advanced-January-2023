@@ -1,33 +1,30 @@
 package stackAndQueueLesson;
 
-import java.util.ArrayDeque;
-import java.util.Scanner;
+import java.util.*;
 
 public class SimpleCalculator02 {
     public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String input = scanner.nextLine();
-        ArrayDeque<Integer> calculatorStack = new ArrayDeque<>();
+        String[] inputArr = scanner.nextLine().split(" ");
+        ArrayDeque<String> calculatorStack = new ArrayDeque<>();
+        List<String> inputList = new ArrayList<>();
+        Collections.addAll(calculatorStack, inputArr);
 
-        int result = 0;
+        while (calculatorStack.size() > 1){
+            int firstNum = Integer.parseInt(calculatorStack.pop());
+            String operations = calculatorStack.pop();
+            int secondNum = Integer.parseInt(calculatorStack.pop());
 
-        for (int i = 0; i < input.length() ; i++) {
-            char currentSymbol = input.charAt(i);
-
-            if (currentSymbol == '+' ){
-                result = calculatorStack.pop() + calculatorStack.pop();
-                calculatorStack.push(result);
-            } else if (currentSymbol == '-'){
-                result = calculatorStack.pop() - calculatorStack.pop();
-                calculatorStack.push(result);
-            } else {
-                int num = Integer.parseInt(String.valueOf(currentSymbol));
-                calculatorStack.push(num);
-            }
-            if (calculatorStack.size() == 1){
-                System.out.println(calculatorStack.pop());
+            switch (operations){
+                case "+" :
+                    calculatorStack.push("" + (firstNum + secondNum));
+                    break;
+                case "-" :
+                    calculatorStack.push("" + (firstNum - secondNum));
+                    break;
             }
         }
+        System.out.println(calculatorStack.pop());
     }
 }
