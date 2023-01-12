@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f99ce8d1-c4a5-4dab-9335-1f67712ed2c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MultidimensionalArraysLesson/CompareMatrices_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultidimensionalArraysLesson/IntersectionOfTwoMatrices_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultidimensionalArraysLesson/MximumSumOf2x2Submatrices_05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultidimensionalArraysLesson/PositionsOf_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultidimensionalArraysLesson/PrintDiagonalsOfSquareMatrix_06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultidimensionalArraysLesson/SumMatrixElements_04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stackAndQueueLesson/BrowserHistoryUpdate.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stackAndQueueLesson/BrowsingHistory.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stackAndQueueLesson/DecimalToBinary.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stackAndQueueLesson/HotPotato.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stackAndQueueLesson/MatchingBrackets.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
