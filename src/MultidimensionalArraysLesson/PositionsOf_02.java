@@ -27,12 +27,12 @@ public class PositionsOf_02 {
             for (int col = 0; col < matrix[row].length; col++) {
                 int currentNum = matrix[row][col];
                 if (currentNum == searchingNumber){
-                    System.out.println(row + " " + col);
                     isFound = true;
+                    System.out.println(row + " " + col);
                 }
             }
         }
-        if (isFound){
+        if (!isFound){
             System.out.println("not found");
         }
       }
