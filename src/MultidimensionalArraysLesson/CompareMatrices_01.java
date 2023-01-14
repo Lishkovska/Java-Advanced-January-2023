@@ -16,9 +16,10 @@ public class CompareMatrices_01 {
     int[][] firstMatrix = new int[countOfArrays][sizeOfArrays];
 
         for (int i = 0; i < countOfArrays; i++) {
-            for (int j = 0; j < sizeOfArrays; j++) {
-               firstMatrix[i][j] = scanner.nextInt();
-            }
+            int[] arr = Arrays.stream(scanner.nextLine().split("\\s+"))
+                    .mapToInt(Integer::parseInt).toArray();
+
+            firstMatrix[i] = arr;
         }
 
         int countSecond = dimensions[0];
@@ -27,11 +28,36 @@ public class CompareMatrices_01 {
         int[][] secondMatrix = new int[countSecond][sizeSecond];
 
         for (int i = 0; i < countSecond ; i++) {
-            for (int j = 0; j < sizeSecond; j++) {
-                secondMatrix[i][j] = scanner.nextInt();
+            int[] arr2 = Arrays.stream(scanner.nextLine().split("\\s+"))
+                    .mapToInt(Integer::parseInt).toArray();
+
+            secondMatrix[i] = arr2;
+        }
+
+        boolean areEqual = true;
+
+        if(firstMatrix.length != secondMatrix.length){
+            areEqual = false;
+        } else {
+            for (int i = 0; i < firstMatrix.length; i++) {
+                for (int j = 0; j < firstMatrix[i].length; j++) {
+                    if (firstMatrix[i].length != secondMatrix[i].length){
+                        areEqual = false;
+                        break;
+                    }
+                    if (firstMatrix[i][j] == secondMatrix[i][j]){
+                        areEqual = true;
+                    } else {
+                        areEqual = false;
+                    }
+                }
             }
         }
-        System.out.println();
+          if (areEqual){
+              System.out.println("equal");
+          } else {
+              System.out.println("not equal");
+          }
 
 
 }
