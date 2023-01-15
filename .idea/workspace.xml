@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f99ce8d1-c4a5-4dab-9335-1f67712ed2c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multidimensionalArraysExercise/_01_FillTheMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multidimensionalArraysExercise/_01_FillTheMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multidimensionalArraysExercise/_02_MatrixOfPalindromes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multidimensionalArraysExercise/_02_MatrixOfPalindromes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multidimensionalArraysExercise/_05_MatrixShuffuling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multidimensionalArraysExercise/_05_MatrixShuffuling.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
