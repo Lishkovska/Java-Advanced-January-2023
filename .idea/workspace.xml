@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f99ce8d1-c4a5-4dab-9335-1f67712ed2c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multidimensionalArraysExercise/_05_MatrixShuffuling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multidimensionalArraysExercise/_05_MatrixShuffuling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multidimensionalArraysExercise/_06_StringMatrixRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multidimensionalArraysExercise/_06_StringMatrixRotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multidimensionalArraysExercise/_09_ReverseMatrixDiagonals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multidimensionalArraysExercise/_09_ReverseMatrixDiagonals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.IntersectionOfTwoMatrices_03">
+  <component name="RunManager" selected="Application._09_ReverseMatrixDiagonals">
     <configuration name="CompareMatrices_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MultidimensionalArraysLesson.CompareMatrices_01" />
       <module name="JavaAdvancedJanuary2023" />
@@ -58,19 +59,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="MultidimensionalArraysLesson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MathPotato06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stackAndQueueLesson.MathPotato06" />
-      <module name="JavaAdvancedJanuary2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stackAndQueueLesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,13 +92,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_09_ReverseMatrixDiagonals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multidimensionalArraysExercise._09_ReverseMatrixDiagonals" />
+      <module name="JavaAdvancedJanuary2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multidimensionalArraysExercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._09_ReverseMatrixDiagonals" />
         <item itemvalue="Application.IntersectionOfTwoMatrices_03" />
         <item itemvalue="Application.PositionsOf_02" />
         <item itemvalue="Application.SumMatrixElements_04" />
         <item itemvalue="Application.CompareMatrices_01" />
-        <item itemvalue="Application.MathPotato06" />
       </list>
     </recent_temporary>
   </component>
