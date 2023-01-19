@@ -18,16 +18,25 @@ public class _09_ReverseMatrixDiagonals {
                 matrix[i][j] = scanner.nextInt();
             }
         }
-        for (int row = rows - 1; row >= 0 ; row--) {
-            for (int col = cols - 1; col >= 0 ; col--) {
-                if (row == col){
-                    System.out.print(matrix[row][col] + " ");
-                }
+        int row = rows - 1;
+        int col = cols - 1;
+
+        while (row != -1){
+            int r = row;
+            int c = col;
+            while (c < cols && r >= 0){
+                System.out.print(matrix[r--][c++] + " ");
             }
             System.out.println();
+            col--;
+            if(col == -1){
+                col = 0;
+                row--;
+            }
         }
+    }
 
-
-
+    private static boolean isInbounds(int row, int col, int [][] matrix) {
+        return row < 0 || col < 0 || row > matrix.length - 1 || col > matrix[0].length - 1;
     }
 }
