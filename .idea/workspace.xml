@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f99ce8d1-c4a5-4dab-9335-1f67712ed2c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/setsAndMapsAdvancedLesson/_05_AverageStudentGrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setsAndMapsAdvancedLesson/_06_ProductShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setsAndMapsAdvancedLesson/_07_CitiesByContinentAndCountries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setsAndMapsAdvancedLesson/_08_AcademyGraduation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setsAndMapsAdvancedLesson/_09_LargestOfThreeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setsAndMapsAdvancedExercise/_01_UniquePasswords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setsAndMapsAdvancedExercise/_02_SetsOfElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setsAndMapsAdvancedExercise/_03_PeriodicTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setsAndMapsAdvancedExercise/_04_CountSymbols.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setsAndMapsAdvancedExercise/_05_PhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setsAndMapsAdvancedExercise/_06_FixEmails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
