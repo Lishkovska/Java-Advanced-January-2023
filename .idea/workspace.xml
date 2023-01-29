@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f99ce8d1-c4a5-4dab-9335-1f67712ed2c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/streamsFilesDirectories_Exercise/_01_SumLines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streamsFilesDirectories_Exercise/_02_SumBytes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streamsFilesDirectories_Exercise/_03_AllCapitals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streamsFilesDirectories_Exercise/_04_CountCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streamsFilesDirectories_Exercise/_05_LineNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streamsFilesDirectories_Exercise/_06_WordCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streamsFilesDirectories_Exercise/_07_MergeTwoFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functionalProgramming_Lesson/_01_SortEvenNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functionalProgramming_Lesson/_02_SumNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functionalProgramming_Lesson/_03_CountUpperCaseWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +40,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application._07_MergeTwoFiles">
-    <configuration name="_03_AllCapitals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streamsFilesDirectories_Exercise._03_AllCapitals" />
+  <component name="RunManager" selected="Application._03_CountUpperCaseWords">
+    <configuration name="_01_SortEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functionalProgramming_Lesson._01_SortEvenNumbers" />
       <module name="JavaAdvancedJanuary2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streamsFilesDirectories_Exercise.*" />
+          <option name="PATTERN" value="functionalProgramming_Lesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +54,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_04_CountCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streamsFilesDirectories_Exercise._04_CountCharacters" />
+    <configuration name="_03_CountUpperCaseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functionalProgramming_Lesson._03_CountUpperCaseWords" />
       <module name="JavaAdvancedJanuary2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streamsFilesDirectories_Exercise.*" />
+          <option name="PATTERN" value="functionalProgramming_Lesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._03_CountUpperCaseWords" />
+        <item itemvalue="Application._01_SortEvenNumbers" />
         <item itemvalue="Application._07_MergeTwoFiles" />
         <item itemvalue="Application._06_WordCount" />
         <item itemvalue="Application._05_LineNumbers" />
-        <item itemvalue="Application._04_CountCharacters" />
-        <item itemvalue="Application._03_AllCapitals" />
       </list>
     </recent_temporary>
   </component>
