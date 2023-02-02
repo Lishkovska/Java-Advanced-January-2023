@@ -11,19 +11,11 @@ public class _06_PredicateForNames {
         int length = Integer.parseInt(scanner.nextLine());
         String[] namesArr = scanner.nextLine().split(" ");
 
-        Predicate<String> printResult = getFilterByLength(namesArr, length);
-        
-    }
+        Predicate<String> checkLength = name -> name.length() <= length;
+        Arrays.stream(namesArr).filter(checkLength).forEach(System.out::println);
 
-    private static Predicate<String> getFilterByLength(String[] names, int length) {
-        for (int i = 0; i < names.length; i++) {
-            String currentName = names[i];
-            if (currentName.length() <= length) {
-                System.out.println(currentName + " ");
-            }
-        }
-        return null ;
     }
 }
+
 
 
