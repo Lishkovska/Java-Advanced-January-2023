@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f99ce8d1-c4a5-4dab-9335-1f67712ed2c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/functionalProgramming_Exercise/_01_ConsumerPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functionalProgramming_Exercise/_02_KnigthsOfHonor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functionalProgramming_Exercise/_03_CustomMinFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functionalProgramming_Exercise/_04_AppliedAritmetics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functionalProgramming_Exercise/_05_ReverseAndExclude.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functionalProgramming_Exercise/_06_PredicateForNames.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalProgramming_Lesson/_06_FindEvenOrOdds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalProgramming_Lesson/_06_FindEvenOrOdds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_01_DefiningClassesPollOpinionExercise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_01_DefiningClassesPollOpinionExercise/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_DefiningClasses_BankAccount/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_DefiningClasses_BankAccount/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +40,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application._06_PredicateForNames">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_DefiningClassesPollOpinionExercise.Main" />
+      <module name="JavaAdvancedJanuary2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_01_DefiningClassesPollOpinionExercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_01_ConsumerPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functionalProgramming_Exercise._01_ConsumerPrint" />
       <module name="JavaAdvancedJanuary2023" />
@@ -84,19 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_06_FindEvenOrOdds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functionalProgramming_Lesson._06_FindEvenOrOdds" />
-      <module name="JavaAdvancedJanuary2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functionalProgramming_Lesson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_06_PredicateForNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functionalProgramming_Exercise._06_PredicateForNames" />
       <module name="JavaAdvancedJanuary2023" />
@@ -112,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application._06_PredicateForNames" />
         <item itemvalue="Application._05_ReverseAndExclude" />
         <item itemvalue="Application._04_AppliedAritmetics" />
         <item itemvalue="Application._01_ConsumerPrint" />
-        <item itemvalue="Application._06_FindEvenOrOdds" />
       </list>
     </recent_temporary>
   </component>
