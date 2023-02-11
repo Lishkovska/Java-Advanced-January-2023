@@ -2,36 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f99ce8d1-c4a5-4dab-9335-1f67712ed2c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/genericExercise_01/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/genericsExercise_07/CustomList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/genericsExercise_07/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/genericsExercise_07/Sorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/BookComparator_04/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/BookComparator_04/BookComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/BookComparator_04/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/Book_01/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/Book_01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/CollectionExersice_02/ListyIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/CollectionExersice_02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/ComparingObjects_exercise_05.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/ComparingObjects_exercise_05/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/ComparingObjects_exercise_05/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/FroggyExercise_04.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/FroggyExercise_04/Lake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/FroggyExercise_04/MainD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/ListyIteratorExercise_01/ListyIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/ListyIteratorExercise_01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/StackIteratorExercise_03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/StackIteratorExercise_03/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/StrategyPatternsExercise_06.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/StrategyPatternsExercise_06/ComparatorByAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/StrategyPatternsExercise_06/ComparatorByName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/StrategyPatternsExercise_06/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/StrategyPatternsExercise_06/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stackAndQueueExercise/BalancedBrackets05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stackAndQueueExercise/BalancedBrackets05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stackAndQueueExercise/RecursiveFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stackAndQueueExercise/RecursiveFibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stackAndQueueLesson/BrowserHistoryUpdate.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/genericExercise_01/Box.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/genericsExercise_07/CustomList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/genericsExercise_07/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/genericsExercise_07/Sorter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iteratorsComparators/ComparingObjects_exercise_05.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iteratorsComparators/FroggyExercise_04.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iteratorsComparators/FroggyExercise_04/Lake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iteratorsComparators/FroggyExercise_04/MainD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iteratorsComparators/StrategyPatternsExercise_06.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
