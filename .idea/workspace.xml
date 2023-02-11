@@ -2,16 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f99ce8d1-c4a5-4dab-9335-1f67712ed2c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_02_DefiningClassesCompanyRoasterExercise.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_DefiningClassesCompanyRoasterExercise/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_DefiningClassesCompanyRoasterExercise/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_DefiningClassesCompanyRoasterExercise/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_DefiningClassesCarSalesmanExercise/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_DefiningClassesCarSalesmanExercise/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_DefiningClassesCarSalesmanExercise/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_04_DefiningClassesRawDataExercise.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_06_DefiningClassesPokemonTrainerExercise.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_07_DefiningClassesGoogleExercise.zip" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/genericExercise_01/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/genericsExercise_07/CustomList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/genericsExercise_07/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/genericsExercise_07/Sorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/BookComparator_04/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/BookComparator_04/BookComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/BookComparator_04/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/Book_01/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/Book_01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/CollectionExersice_02/ListyIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/CollectionExersice_02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/ComparingObjects_exercise_05.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/ComparingObjects_exercise_05/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/ComparingObjects_exercise_05/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/FroggyExercise_04.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/FroggyExercise_04/Lake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/FroggyExercise_04/MainD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/ListyIteratorExercise_01/ListyIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/ListyIteratorExercise_01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/StackIteratorExercise_03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/StackIteratorExercise_03/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/StrategyPatternsExercise_06.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/StrategyPatternsExercise_06/ComparatorByAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/StrategyPatternsExercise_06/ComparatorByName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/StrategyPatternsExercise_06/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iteratorsComparators/StrategyPatternsExercise_06/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stackAndQueueExercise/BalancedBrackets05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stackAndQueueExercise/BalancedBrackets05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stackAndQueueExercise/RecursiveFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stackAndQueueExercise/RecursiveFibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stackAndQueueLesson/BrowserHistoryUpdate.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +59,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_01_DefiningClassesPollOpinionExercise.Main" />

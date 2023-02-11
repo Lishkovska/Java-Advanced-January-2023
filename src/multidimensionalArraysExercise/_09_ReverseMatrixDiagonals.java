@@ -7,36 +7,61 @@ public class _09_ReverseMatrixDiagonals {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String dimensions = scanner.nextLine();
-        int rows = Integer.parseInt(dimensions.split("\\s+")[0]);
-        int cols = Integer.parseInt(dimensions.split("\\s+")[1]);
+        String[] input = scanner.nextLine().split("\\s+");
+        int r = Integer.parseInt(input[0]);
+        int c = Integer.parseInt(input[1]);
 
-        int[][] matrix = new int[rows][cols];
+        int[][] matrix = new int[r][c];
 
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix.length; j++) {
-                matrix[i][j] = scanner.nextInt();
-            }
-        }
-        int row = rows - 1;
-        int col = cols - 1;
+        fillMatrix(scanner, matrix, r);
+        printReversedDiagonal(matrix, r, c);
 
-        while (row != -1){
-            int r = row;
-            int c = col;
-            while (c < cols && r >= 0){
-                System.out.print(matrix[r--][c++] + " ");
-            }
-            System.out.println();
-            col--;
-            if(col == -1){
-                col = 0;
-                row--;
+    }
+
+    private static void printReversedDiagonal(int[][] matrix, int r, int c) {
+        for (int row = r - 1; row >= 0; row--) {
+
+            if (row == r - 1) {
+                for (int col = c - 1; col >= 0; col--) {
+                    System.out.print(matrix[row][col] + " ");
+                    int dr = row;
+                    int dc = col;
+
+                    while (dr - 1 >= 0 && dc + 1 <= c - 1) {
+                        System.out.print(matrix[dr - 1][dc + 1] + " ");
+                        dr--;
+                        dc++;
+                    }
+                    System.out.println();
+                }
+            } else {
+
+                for (int col = 0; col < c; col++) {
+
+                    System.out.print(matrix[row][col] + " ");
+                    int dr = row;
+                    int dc = col;
+
+                    while (dr - 1 >= 0 && dc + 1 <= c - 1) {
+                        System.out.print(matrix[dr - 1][dc + 1] + " ");
+                        dr--;
+                        dc++;
+
+                    }
+                    System.out.println();
+                    col = c;
+                }
+
             }
         }
     }
 
-    private static boolean isInbounds(int row, int col, int [][] matrix) {
-        return row < 0 || col < 0 || row > matrix.length - 1 || col > matrix[0].length - 1;
+    private static void fillMatrix (Scanner scanner,int[][] matrix, int r){
+
+        for (int i = 0; i < r; i++) {
+            matrix[i] = Arrays.stream(scanner.nextLine().split("\\s+"))
+                    .mapToInt(Integer::parseInt).toArray();
+
+        }
     }
 }
